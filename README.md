@@ -1,2 +1,2 @@
-# javascript_dice_simulator
- My python dice simulator but in JS
+# val8119.github.io
+GitHub page for testing browser based projects
