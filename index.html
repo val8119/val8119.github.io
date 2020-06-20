@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/a699fa5281.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Dice</title>
+</head>
+
+<body>
+    <div id="site-title-container">
+        <h1 id="site-title">🎲 DICE 🎲</h1>
+    </div>
+    <div id="single-roll-container">
+        <button id="roll-btn" onclick="rollOnce()">Click to roll</button>
+    </div>
+    <div id="autoroll-container">
+        <input id="autoroll-times" placeholder="Number of rolls">
+        <br>
+        <button id="autoroll-btn" onclick="autoroll()">Autoroll</button>
+        <br>
+        <textarea id="autoroll-value" readonly cols="38" rows="28"></textarea>
+    </div>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
