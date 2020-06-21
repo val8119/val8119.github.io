@@ -1,0 +1,40 @@
+html * {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+body {
+  background-color: #2a2933;
+}
+
+#title-container {
+  text-align: center;
+  margin-top: 14%;
+}
+
+#title {
+  color: #fbf8ff;
+  text-shadow: 3px 3px#0000006b;
+  font-size: 50px;
+}
+
+#clock-container {
+  text-align: center;
+  margin-top: 5%;
+}
+
+#clock {
+  color: #fbf8ff;
+  text-shadow: 3px 3px#0000006b;
+  font-size: 35px;
+}
+
+#timer-container {
+  text-align: center;
+  margin-top: 5%;
+}
+
+#timer {
+  color: #fbf8ff;
+  text-shadow: 3px 3px#0000006b;
+  font-size: 35px;
+}
