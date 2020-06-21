@@ -1,4 +1,4 @@
-# val8119.github.io
+# Sandbox
 Sandbox for testing and hosting web or browser based projects
 * [Clock](https://val8119.github.io/sandbox/javascript_clock/) - A simple clock as an into to JavaScript
 * [Dice](https://val8119.github.io/sandbox/javascript_dice_simulator/) - A JS version of my python dice rolling simulator
