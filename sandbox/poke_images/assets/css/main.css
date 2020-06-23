@@ -16,6 +16,10 @@ body {
     text-align: center;
 }
 
+.container {
+    margin-top: 20vh;
+}
+
 #HIDDEN {
     display: none;
 }
@@ -39,7 +43,7 @@ body {
 
 #pokemon-container {
     margin: auto;
-    margin-top: 5vh;
+    margin-top: 20px;
     width: 315px;
     height: 300px;
 }
