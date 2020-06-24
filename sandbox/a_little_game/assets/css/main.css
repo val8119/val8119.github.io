@@ -1,0 +1,83 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #24303d;
+    background: linear-gradient(135deg, #2c2c2c 0%, #24303d 100%);
+}
+
+.cont {
+    margin: auto;
+    width: 60vw;
+    height: 30vh;
+    margin-top: 25vh;
+    text-align: center;
+}
+
+.cont h1 {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75);
+    color: aliceblue;
+    font-weight: lighter;
+}
+
+.cont button {
+    color: aliceblue;
+    text-align: center;
+    border-width: 1px;
+    border-style: none;
+    border-radius: 5px;
+    margin: 0 10px 20px 10px;
+    height: 25px;
+    transition: ease 0.2s;
+}
+
+/* NORMAL BUTTON */
+
+.normal-button {
+    background-color: rgb(20, 21, 32);
+}
+
+.normal-button:hover {
+    background-color: rgb(12, 12, 19);
+    box-shadow: 0px 0px 10px 0px rgba(20, 21, 32, 0.5);
+}
+
+/* GREEN BUTTON */
+
+.green-button {
+    background-color: rgb(16, 180, 24);
+}
+
+.green-button:hover {
+    background-color: rgb(14, 160, 21);
+    box-shadow: 0px 0px 10px 0px rgba(14, 160, 21, 0.5);
+}
+
+/* RED BUTTON */
+
+.red-button {
+    background-color: rgb(180, 16, 16);
+}
+
+.red-button:hover {
+    background-color: rgb(180, 16, 16);
+    box-shadow: 0px 0px 10px 0px rgba(180, 16, 16, 0.8);
+}
+
+.cont button:active {
+    position: relative;
+    top: 1px;
+}
+
+.cont button:focus {
+    outline: none;
+}
