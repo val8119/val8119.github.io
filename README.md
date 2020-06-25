@@ -1,4 +1,5 @@
 # Sandbox
+
 Sandbox for testing and hosting web or browser based projects
 
 - [Clock](https://val8119.github.io/sandbox/javascript_clock/) - A simple clock as an into to JavaScript
@@ -9,3 +10,4 @@ Sandbox for testing and hosting web or browser based projects
 - [Random Quotes](https://val8119.github.io/sandbox/random_quotes/) - Click a button to get arandom quote
 - [Coin Counter](https://val8119.github.io/sandbox/coin_counter/) - Makes counting coins easy
 - [A Little Game](https://val8119.github.io/sandbox/a_little_game/) - My girlfriend's first python game in JavaScript
+- [Notepad](https://val8119.github.io/sandbox/local_storage_test/) - A simple local storage based notepad
