@@ -10,5 +10,5 @@ Sandbox for testing and hosting web or browser based projects
 - [Random Quotes](https://val8119.github.io/sandbox/random_quotes/) - Click a button to get a random quote
 - [Coin Counter](https://val8119.github.io/sandbox/coin_counter/) - Easy coin counter, updates as you enter the amounts
 - [A Little Game](https://val8119.github.io/sandbox/a_little_game/) - My girlfriend's first python game in JavaScript
-- [Notepad](https://val8119.github.io/sandbox/notepad_local_storage/) - JavaScript based notepad with local storage
-- [Notepad](https://val8119.github.io/sandbox/todo_list/) - JavaScript based todo list with local storage
+- [Notepad](https://val8119.github.io/sandbox/notepad_local_storage/) - Notepad made with JavaScript with local storage
+- [Todo List](https://val8119.github.io/sandbox/todo_list/) - JavaScript based todo list with local storage
