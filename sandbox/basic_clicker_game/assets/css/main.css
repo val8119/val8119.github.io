@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: rgb(50, 90, 96);
+    background: linear-gradient(135deg, rgba(50, 90, 96, 1) 0%, rgba(39, 87, 64, 1) 100%);
+    user-select: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.75);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.container {
+    background-color: rgba(130, 238, 255, 0.212);
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    margin: 30vh auto 0 auto;
+    text-align: center;
+    transition: all ease 0.3s;
+    animation: fadeIn 0.5s ease;
+}
+
+.text-cont {
+    color: aliceblue;
+    padding-top: 122px;
+}
+
+.container:hover {
+    cursor: pointer;
+    transform: scale(1.025);
+}
+
+.container:active {
+    transform: scale(0.975);
+}
+
+.reset-cont {
+    width: 150px;
+    height: 75px;
+    margin: 150px auto 0 auto;
+    text-align: center;
+}
+
+.reset-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+    color: rgba(130, 238, 255, 0.212);
+    animation: fadeIn 0.5s ease;
+}
+
+.reset-btn:hover {
+    transition: ease 0.5s;
+    cursor: pointer;
+    transform: rotate(360deg);
+}
+
+.reset-btn:active {
+    transition: ease 0.3s;
+    transform: scale(0.95);
+}
+
+.reset-tooltip {
+    margin: 10px auto 0 auto;
+    color: aliceblue;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.137);
+    width: 120px;
+    height: 22px;
+    padding-top: 6px;
+    border-radius: 15px;
+    opacity: 0;
+    transition: all ease 0.3s;
+}
+
+.show {
+    opacity: 1;
+}
+
+.hide {
+    opacity: 0;
+}

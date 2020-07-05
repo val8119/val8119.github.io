@@ -14,3 +14,4 @@ Sandbox for testing and hosting web or browser based projects
 - [Todo List](https://val8119.github.io/sandbox/todo_list/) - JavaScript based todo list with local storage
 - [ISS Tracker](https://val8119.github.io/sandbox/iss_tracker/) - Track the International Space Station live!
 - [LeafBook](https://val8119.github.io/sandbox/leafbook_test_website/) - A semi-responsive test website for a fictional company
+- [Clicker Game](https://val8119.github.io/sandbox/basic_clicker_game/) - A very basic clicker game
