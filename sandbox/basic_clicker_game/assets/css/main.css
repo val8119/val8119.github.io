@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+button {
+    font-family: 'Press Start 2P', cursive;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: black;
+    user-select: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.75);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    margin: 7.5vh auto 0 auto;
+    text-align: center;
+    transition: all ease 0.3s;
+    animation: fadeIn 0.5s ease;
+    background-image: url("../images/circle.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    image-rendering: pixelated;
+}
+
+.text-cont {
+    padding-top: 120px;
+    color: black;
+}
+
+.container:hover {
+    cursor: pointer;
+    transform: scale(1.025);
+}
+
+.container:active {
+    transform: scale(0.972);
+}
+
+.reset-cont {
+    width: 150px;
+    height: 75px;
+    margin: 150px auto 0 auto;
+    text-align: center;
+}
+
+.reset-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    animation: fadeIn 0.5s ease;
+    transition: all ease 0.5s;
+}
+
+.reset-btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.reset-btn:active {
+    transform: scale(0.975);
+}
+
+.upgrades-cont {
+    animation: fadeIn 0.5s ease;
+    margin: 20vh auto 0 auto;
+    text-align: center;
+    width: 500px;
+    height: 25px;
+}
+
+.upgrades-cont p {
+    font-size: 10px;
+    color: white;
+    display: inline;
+}
+
+.upgrades-cont button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.upgrades-cont button:active {
+    position: relative;
+    top: 1px;
+}
+
+.circle {
+    width: 100%;
+    image-rendering: pixelated;
+}
