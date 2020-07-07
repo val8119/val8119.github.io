@@ -15,3 +15,4 @@ Sandbox for testing and hosting web or browser based projects
 - [ISS Tracker](https://val8119.github.io/sandbox/iss_tracker/) - Track the International Space Station live!
 - [LeafBook](https://val8119.github.io/sandbox/leafbook_test_website/) - A semi-responsive test website for a fictional company
 - [Clicker Game](https://val8119.github.io/sandbox/basic_clicker_game/) - A simple clicker game
+- [Thief Cache Locations](https://val8119.github.io/sandbox/skyrim_thief_cache_locations/) - Locations of all the thieves' caches in Skyrim
