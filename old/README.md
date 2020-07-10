@@ -1,6 +1,8 @@
 # Old
 
-Some older or more basic projects
+Some older or more basic projects.
+
+Newer ones are found [here](https://val8119.github.io/).
 
 - [Clock](https://val8119.github.io/old/javascript_clock/) - A simple clock as an intro to JavaScript
 - [Random Background Color](https://val8119.github.io/old/random_background_color/) - Click a button to get a random background color
