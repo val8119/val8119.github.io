@@ -10,4 +10,4 @@ I moved some of my projects that are older/simpler [here](https://val8119.github
 - [Clicker Game](https://val8119.github.io/sandbox/basic_clicker_game/) - A simple clicker game
 - [Thief Cache Locations](https://val8119.github.io/sandbox/skyrim_thief_cache_locations/) - Locations of all the thieves' caches in Skyrim
 - [Lofi Radio](https://val8119.github.io/sandbox/lofi_radio/) - 24/7 lofi radio
-- [Typing Text](https://val8119.github.io/sandbox/typing_test/) - A simple typing test to calculate your WPM
+- [Typing Test](https://val8119.github.io/sandbox/typing_test/) - A simple typing test to calculate your WPM
