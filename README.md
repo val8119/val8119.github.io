@@ -1,6 +1,6 @@
-# Sandbox
+# Old
 
-Sandbox for testing and hosting web or browser based projects
+Some older or more basic projects
 
 - [Clock](https://val8119.github.io/sandbox/javascript_clock/) - A simple clock as an intro to JavaScript
 - [Random Background Color](https://val8119.github.io/sandbox/random_background_color/) - Click a button to get a random background color
