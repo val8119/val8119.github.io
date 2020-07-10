@@ -1,8 +1,7 @@
 # Sandbox
 
-Sandbox for testing and hosting web or browser based projects
-
-##[some older or more basic projects](https://val8119.github.io/old)
+Sandbox for testing and hosting web or browser based projects.
+I moved some of my projects that are older/simpler [here](https://val8119.github.io/old) because there's too many of them.
 
 - [COVID-19 Stats](https://val8119.github.io/sandbox/covid-19_stats/) - A simple COVID-19 statistics tracker created with the COVID19 API and amCharts
 - [Coin Counter](https://val8119.github.io/sandbox/coin_counter/) - Easy coin counter, updates as you enter the amounts
