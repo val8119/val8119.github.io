@@ -1,10 +1,22 @@
-document.getElementById("button").addEventListener("click", function () {
-    randomColor = '#' + (0x1000000 + (Math.random()) * 0xffffff).toString(16).substr(1, 6)
-    document.body.style.backgroundColor = randomColor;
-    console.log("click")
-});
+// selectors
+colorText = document.querySelector(".colortext");
 
-window.addEventListener("load", function () {
-    randomColor = '#' + (0x1000000 + (Math.random()) * 0xffffff).toString(16).substr(1, 6)
+// listeners
+document.documentElement.addEventListener("click", checkClick);
+
+window.addEventListener("load", changeBg);
+
+// functions
+function checkClick(event) {
+    if (event.target != colorText) {
+        randomColor = '#' + (0x1000000 + (Math.random()) * 0xffffff).toString(16).substr(1, 6);
+        document.body.style.backgroundColor = randomColor;
+        colorText.innerHTML = randomColor;
+    }
+}
+
+function changeBg() {
+    randomColor = '#' + (0x1000000 + (Math.random()) * 0xffffff).toString(16).substr(1, 6);
     document.body.style.backgroundColor = randomColor;
-});
+    colorText.innerHTML = randomColor;
+}

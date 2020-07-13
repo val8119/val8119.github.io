@@ -1,41 +1,22 @@
 html * {
     font-family: 'Poppins', sans-serif;
-    height: 100%;
 }
 
 body {
-    height: 100%;
     margin: 0;
     padding: 0;
     background-color: white;
 }
 
-.button-cont {
+.colortext {
     text-align: center;
-    margin-top: 40vh;
-}
-
-.button-cont button {
-    border-width: 1px;
-    border-color: transparent;
-    border-radius: 25px;
-    width: 110px;
-    height: 50px;
-    font-size: 16px;
-    background-color: #00000028;
-    color: #0b0c16;
-    transition: ease 0.1s;
-}
-
-.button-cont button:hover {
-    background-color: #00000035;
-}
-
-.button-cont button:active {
-    position: relative;
-    top: 1px;
-}
-
-.button-cont button:focus {
-    outline: none;
+    font-weight: 1;
+    opacity: 0.3;
+    color: black;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-45%);
+    animation: fadeAway 2.5s ease reverse;
+    font-style: italic;
 }
