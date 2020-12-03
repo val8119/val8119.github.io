@@ -11,4 +11,4 @@ I moved some of my projects that are older/simpler [here](https://val8119.github
 - [Thief Cache Locations](https://val8119.github.io/sandbox/skyrim_thief_cache_locations/) - Locations of all the thieves' caches in Skyrim
 - [Lofi Radio](https://val8119.github.io/sandbox/lofi_radio/) - 24/7 lofi radio
 - [Typing Test](https://val8119.github.io/sandbox/typing_test/) - A simple typing test to calculate your WPM
-- [Typing Test](https://val8119.github.io/sandbox/coinflip/) - A simple web-based coinflip thingy
+- [Coinflip](https://val8119.github.io/sandbox/coinflip/) - A simple web-based coinflip thingy
