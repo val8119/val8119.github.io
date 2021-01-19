@@ -4,6 +4,7 @@ Sandbox for testing and hosting web or browser based projects.
 
 I moved some of my projects that are older/simpler [here](https://val8119.github.io/old) because there's too many of them.
 
+- [Red Screen of Communism](https://val8119.github.io/sandbox/red_screen_of_communism/) - A red screen of communism, cause why not
 - [COVID-19 Stats](https://val8119.github.io/sandbox/covid-19_stats/) - A simple COVID-19 statistics tracker created with the COVID19 API and amCharts
 - [Coin Counter](https://val8119.github.io/sandbox/coin_counter/) - Easy coin counter, updates as you enter the amounts
 - [LeafBook](https://val8119.github.io/sandbox/leafbook_test_website/) - A semi-responsive test website for a fictional company
