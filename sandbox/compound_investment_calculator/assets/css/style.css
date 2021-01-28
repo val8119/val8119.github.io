@@ -1,0 +1,55 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: rgb(36, 35, 41);
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    margin: 7.5% auto 0 auto;
+    width: 500px;
+    height: 500px;
+}
+
+.inputs {
+    width: 213px;
+    height: 80px;
+    margin: 0 auto 0 auto;
+}
+
+input {
+    width: 50px;
+}
+
+input:focus {
+    background: rgb(15, 189, 64);
+}
+
+button {
+    width: 199px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgb(15, 189, 64);
+}
+
+input,
+button {
+    margin: 0 7px 10px 7px;
+    border: none;
+    outline: none;
+    text-align: center;
+    height: 25px;
+    border-radius: 5px;
+    background: rgb(47, 47, 57);
+    color: white;
+    transition: all ease 0.2s;
+}
+
+::selection {
+    color: white;
+    background: rgb(6, 124, 124);
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Compound Investment Calculator</title>
+</head>
+
+<body>
+    <main class="main">
+        <div class="inputs">
+            <input type="text" class="principal" placeholder="$$$">
+            <input type="text" class="interest" placeholder="%">
+            <input type="text" class="days" placeholder="Days">
+            <button class="update">Update Chart</button>
+        </div>
+        <canvas id="chart" width="100" height="100"></canvas>
+    </main>
+
+
+    <script src="assets/js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <script>
+        // Selectors
+        let canvasChart = document.getElementById("chart");
+        let inputPrincipal = document.querySelector(".principal");
+        let inputInterest = document.querySelector(".interest");
+        let inputDays = document.querySelector(".days");
+        let buttonUpdate = document.querySelector(".update");
+
+        var ctx = document.getElementById("chart").getContext("2d");
+        var chart = new Chart(ctx, {
+            // The type of chart we want to create
+            type: "line",
+
+            // The data for our dataset
+            data: {
+                labels: [],
+                datasets: [{
+                    label: " Daily Interest",
+                    backgroundColor: "rgb(15, 189, 64, 0.25)",
+                    borderColor: "rgb(15, 189, 64)",
+                    data: []
+                }]
+            },
+
+            // Configuration options go here
+            options: {}
+        });
+
+        // Functions
+
+        function calc(principal, interest, day) {
+            return (principal * (1 + (interest / 100)) ** day).toFixed(2);
+        }
+
+        function removeData(chart) {
+            chart.data.labels.pop();
+            chart.data.datasets.forEach((dataset) => {
+                dataset.data.pop();
+            });
+            chart.update();
+        }
+
+        function addData(chart, label, data) {
+            chart.data.labels.push(label);
+            chart.data.datasets.forEach((dataset) => {
+                dataset.data.push(data);
+            });
+            chart.update();
+        }
+
+        // Code
+
+        buttonUpdate.addEventListener("click", function () {
+            principal = Number(inputPrincipal.value);
+            interest = Number(inputInterest.value);
+            totalDays = Number(inputDays.value);
+
+            for (var i = 1; i < 999; i++) {
+                removeData(chart);
+            }
+
+            for (var day = 1; day < totalDays + 1; day++) {
+                addData(chart, "Day " + day, calc(100, interest, day));
+            }
+        });
+    </script>
+</body>
+
+</html>
