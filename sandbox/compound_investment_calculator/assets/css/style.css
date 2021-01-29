@@ -1,5 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
 }
 
 body {
@@ -21,14 +22,31 @@ main {
 
 input {
     width: 50px;
+    margin: 0px 7px 10px 7px;
 }
 
 input:focus {
     background: rgb(15, 189, 64);
 }
 
-button {
-    width: 199px;
+.update {
+    width: 93px;
+    margin: 0px 4px 10px 6px;
+    display: inline;
+}
+
+.download {
+    width: 93px;
+    margin: 0px 6px 10px 4px;
+    border: none;
+    outline: none;
+    text-align: center;
+    height: 25px;
+    border-radius: 5px;
+    background: rgb(47, 47, 57);
+    color: white;
+    transition: all ease 0.2s;
+    display: inline;
 }
 
 button:hover {
@@ -38,7 +56,6 @@ button:hover {
 
 input,
 button {
-    margin: 0 7px 10px 7px;
     border: none;
     outline: none;
     text-align: center;
