@@ -2,7 +2,7 @@
 
 WIP
 
-## Sandbox
+### Sandbox
 
 Sandbox for testing and hosting web or browser based projects.
 
