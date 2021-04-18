@@ -2,6 +2,16 @@
 
 WIP
 
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+
 ### Sandbox
 
 Sandbox for testing and hosting web or browser based projects.
