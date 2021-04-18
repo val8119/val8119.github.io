@@ -1,4 +1,8 @@
-# Sandbox
+# DUP - Discord User Panel
+
+WIP
+
+## Sandbox
 
 Sandbox for testing and hosting web or browser based projects.
 
