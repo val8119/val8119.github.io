@@ -31,7 +31,7 @@
                     const { username, discriminator } = response;
                     document.getElementById('info').innerText += ` ${username}#${discriminator}`;
                 })
-                .catch(console.error);
+                .catch(console.log(error));
         };
     </script>
 </body>
