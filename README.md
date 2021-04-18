@@ -3,18 +3,9 @@
 WIP
 
 <details>
-  <summary>Click to expand!</summary>
+  <summary>Sandbox</summary>
   
-  ## Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
-</details>
-
-### Sandbox
-
-Sandbox for testing and hosting web or browser based projects.
+  Sandbox for testing and hosting web or browser based projects.
 
 I moved some of my projects that are older/simpler [here](https://val8119.github.io/old) because there's too many of them.
 
@@ -28,3 +19,4 @@ I moved some of my projects that are older/simpler [here](https://val8119.github
 - [Lofi Radio](https://val8119.github.io/sandbox/lofi_radio/) - 24/7 lofi radio
 - [Typing Test](https://val8119.github.io/sandbox/typing_test/) - A simple typing test to calculate your WPM
 - [Coinflip](https://val8119.github.io/sandbox/coinflip/) - A simple web-based coinflip thingy
+</details>
